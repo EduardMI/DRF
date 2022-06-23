@@ -44,7 +44,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class="container">
                 <Menu />
                 <UserList users={this.state.users} />
                 <Footer />
